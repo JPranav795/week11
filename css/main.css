@@ -134,8 +134,8 @@ details h3{
     text-decoration: line-through;
   }
 
-#done input[type="checkbox"]:checked + span::after {
-    content: ' ✔️';
+.done_list li input[type="checkbox"]:checked + span::after {
+    content: "✔️";
     margin-left: 5px;
     color: green;
   }
