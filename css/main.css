@@ -23,9 +23,6 @@ body{
   }
 
 main{
-    /* Just because we are using flex does not mean I
-    should be using flexbox for my FIP for everything. */
-
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -49,7 +46,6 @@ article > h2{
     padding: 4px 8px;
 }
 
-/* This was done to show how the first-of-type works */ 
 article:first-of-type{
     border: 4px solid #000080;
 }
@@ -97,12 +93,12 @@ ul li{
 
 .decorated-heading::after {
     content: "\📝";
-    color: lightblue;
     margin-left: 5px;
 }
 
 input[type="checkbox"]:checked + span::after{
     content: "\270F";
+    color: #FFD700;
     margin-left: 5px;
 }
 
