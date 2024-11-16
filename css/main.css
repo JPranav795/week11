@@ -5,10 +5,10 @@
 }
 
 body{
-    background-color: black;
+    background-color: pink;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://media.istockphoto.com/id/928411156/photo/to-do-list-concept.jpg?s=612x612&w=0&k=20&c=x_zRdxbxYH4R2EYzwoeZx0Dm3HpU_EDVkdR8OWOPE-w=);
+    background-image: url(https://aem.dropbox.com/cms/content/dam/dropbox/blog/files/2017/08/magic-of-to-dos.gif);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -17,7 +17,7 @@ body{
 
 #main-title {
     font-size: 35px;
-    color: turquoise;
+    color: blue;
     text-align: center;
     font-family: 'Roboto', sans-serif;
   }
@@ -96,13 +96,13 @@ ul li{
 }
 
 .decorated-heading::after {
-    content: "\2744";
+    content: "\📝";
     color: lightblue;
     margin-left: 5px;
 }
 
 input[type="checkbox"]:checked + span::after{
-    content: "\🦇";
+    content: "\270F";
     margin-left: 5px;
 }
 
