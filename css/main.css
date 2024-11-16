@@ -12,7 +12,15 @@ body{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
+
+#main-title {
+    font-size: 35px;
+    color: turquoise;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
 
 main{
     /* Just because we are using flex does not mean I
@@ -116,3 +124,20 @@ details h3{
     margin-top: 15px;
     margin-bottom: 8px;
 }
+
+#inprogress input[type="checkbox"]:checked + span {
+    color: orange;
+  }
+
+#done input[type="checkbox"]:checked + span {
+    color: green;
+    text-decoration: line-through;
+  }
+
+#done input[type="checkbox"]:checked + span::after {
+    content: ' ✔️';
+    margin-left: 5px;
+    color: green;
+  }
+  
+  
